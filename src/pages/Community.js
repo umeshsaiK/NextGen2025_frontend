@@ -5,7 +5,7 @@ import CommunityPostCard from '../components/CommunityPostCard';
 import { getPosts, createPost, upvotePost, downvotePost, addComment } from '../api';
 import toast from 'react-hot-toast';
 
-const socket = io('https://nextgen-2025-backend.onrender.com');
+const socket = io('https://nextgen2025-backend.onrender.com');
 
 const Community = () => {
   const [posts, setPosts] = useState([]);
