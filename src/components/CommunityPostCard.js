@@ -11,7 +11,7 @@ const CommunityPostCard = ({ post, onUpvote, onDownvote, onAddComment }) => {
     if (post.image) {
       const imageSrc = post.image.startsWith('http')
         ? post.image
-        : `https://nextgen-2025-backend.onrender.com${post.image}`;
+        : `https://nextgen2025-backend.onrender.com${post.image}`;
       console.log('Attempting to load image from:', imageSrc);
       return (
         <img
