@@ -20,7 +20,7 @@ const imageMap = {
 export const getImageSource = (image) => {
   // If the image is an uploaded file (starts with /uploads/), treat it as a URL
   if (image && image.startsWith('/uploads/')) {
-    return `https://nextgen-2025-backend.onrender.com${image}`; // Backend serves uploaded images
+    return `https://nextgen2025-backend.onrender.com${image}`; // Backend serves uploaded images
   }
   // Otherwise, map it to a static asset
   return imageMap[image] || 'https://via.placeholder.com/300x200?text=Image+Not+Found';
