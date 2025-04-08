@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import io from 'socket.io-client';
 
-const socket = io('https://nextgen-2025-backend.onrender.com');
+const socket = io('https://nextgen2025-backend.onrender.com');
 
 const LiveTicker = () => {
   const [updates, setUpdates] = useState([
