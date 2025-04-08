@@ -79,7 +79,7 @@ const CommunityPostCard = ({ post, onUpvote, onDownvote, onAddComment }) => {
       } else if (post.video.match(/\.(mp4|webm|ogg)$/i)) {
         return (
           <video controls className="w-full rounded mb-2 object-cover" style={{ aspectRatio: '16/9' }}>
-            <source src={`https://nextgen-2025-backend.onrender.com${post.video}`} type="video/mp4" />
+            <source src={`https://nextgen2025-backend.onrender.com${post.video}`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         );
