@@ -9,7 +9,7 @@ import RecipeForm from '../components/RecipeForm';
 import toast from 'react-hot-toast';
 import { getUserProfile, updateUserProfile, getUserRecipes, createRecipe, deleteRecipe, getNotifications } from '../api';
 
-const socket = io('https://nextgen-2025-backend.onrender.com');
+const socket = io('https://nextgen2025-backend.onrender.com');
 
 const UserDashboard = () => {
   const location = useLocation();
